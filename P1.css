@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "SUSE", sans-serif;
+    background-color: #111;
+    color: #fff;
+    cursor: none;
+}
+#Main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Cursor{
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.4rem;
+    color: #111;
+    z-index: 9;
+}
+#img{
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+}
