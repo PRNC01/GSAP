@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "SUSE", sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+#Page1, #Page2, #Page3{
+    width: 100%;
+    height: 100vh;
+}
+#Move{
+    background-color: #D8FF04;
+    color: #111;
+    display: flex;
+    overflow: hidden;
+}
+.Marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translate(-100%);
+}
+.Marque h1{
+    font-size: 4vw;
+}
+.Marque img{
+    height: 4vw;
+}
